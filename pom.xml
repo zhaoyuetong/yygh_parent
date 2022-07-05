@@ -22,7 +22,7 @@
         <version>2.2.1.RELEASE</version>
     </parent>
 
-    <groupId>com.atguigu.yygh</groupId>
+    <groupId>com.atzyt.yygh</groupId>
     <artifactId>yygh-parent</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
