@@ -7,10 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-user" />
-        <module name="model" />
-        <module name="service-hosp" />
         <module name="common-util" />
+        <module name="service-hosp" />
+        <module name="model" />
+        <module name="service-cmn" />
+        <module name="hospital-manage" />
         <module name="service-util" />
       </profile>
     </annotationProcessing>
@@ -22,8 +23,10 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
       <module name="common-util" options="-parameters" />
+      <module name="hospital-manage" options="-parameters" />
       <module name="model" options="-parameters" />
       <module name="service" options="-parameters" />
+      <module name="service-cmn" options="-parameters" />
       <module name="service-hosp" options="-parameters" />
       <module name="service-user" options="-parameters" />
       <module name="service-util" options="-parameters" />

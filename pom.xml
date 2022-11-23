@@ -3,18 +3,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>common</module>
-        <module>model</module>
-        <module>service</module>
-        <module>server-gateway</module>
+<!--        <module>server-gateway</module>
         <module>service-client</module>
-        <module>hospital-manage</module>
+        <module>hospital-manage</module>-->
         <module>common</module>
         <module>common/common-util</module>
         <module>common/service-util</module>
         <module>model</module>
         <module>service</module>
         <module>service/service-hosp</module>
+        <module>service/service-cmn</module>
     </modules>
 
     <parent>
