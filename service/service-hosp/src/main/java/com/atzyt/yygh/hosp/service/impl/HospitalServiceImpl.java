@@ -5,6 +5,7 @@ import com.atzyt.yygh.hosp.repository.HospitalRepository;
 import com.atzyt.yygh.hosp.service.HospitalService;
 import com.atzyt.yygh.model.hosp.Hospital;
 import com.atzyt.yygh.vo.hosp.HospitalQueryVo;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 
@@ -15,12 +16,8 @@ import java.util.Map;
 @Service
 public class HospitalServiceImpl implements HospitalService {
 
+    @Autowired
     private HospitalRepository hospitalRepository;
-
-    @Override
-    public Hospital getByHoscode(String hoscode) {
-        return null;
-    }
 
     @Override
     public Page<Hospital> selectHospPage(Integer page, Integer limit, HospitalQueryVo hospitalQueryVo) {
@@ -53,9 +50,6 @@ public class HospitalServiceImpl implements HospitalService {
     }
 
 //    @Autowired
-//    private HospitalRepository hospitalRepository;
-//
-//    @Autowired
 //    private DictFeignClient dictFeignClient;
 
     @Override
@@ -84,12 +78,11 @@ public class HospitalServiceImpl implements HospitalService {
         }
     }
 
-//    @Override
-//    public Hospital getByHoscode(String hoscode) {
-//        Hospital hospital = hospitalRepository.getHospitalByHoscode(hoscode);
-//        return hospital;
-//    }
-//
+    @Override
+    public Hospital getByHoscode(String hoscode) {
+        Hospital hospital = hospitalRepository.getHospitalByHoscode(hoscode);
+        return hospital;
+    }
 //    //医院列表(条件查询分页)
 //    @Override
 //    public Page<Hospital> selectHospPage(Integer page, Integer limit, HospitalQueryVo hospitalQueryVo) {
