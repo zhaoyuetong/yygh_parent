@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24643970-48d3-456c-9ffd-68140e93fe44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/atzyt/yygh/hosp/service/impl/DepartmentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/atzyt/yygh/hosp/service/impl/ScheduleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/atzyt/yygh/hosp/controller/api/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/atzyt/yygh/hosp/controller/api/ApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client/service-cmn-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client/service-cmn-client/src/main/java/com/atzyt/yygh/cmn/client/DictFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/atzyt/yygh/hosp/controller/HospitalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/atzyt/yygh/ServiceCmnApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/atzyt/yygh/ServiceCmnApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/atzyt/yygh/cmn/controller/DictController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/atzyt/yygh/cmn/controller/DictController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/atzyt/yygh/cmn/service/DictService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/atzyt/yygh/cmn/service/DictService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/atzyt/yygh/cmn/service/impl/DictServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/atzyt/yygh/cmn/service/impl/DictServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cmn/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cmn/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cmn/target/classes/com/atzyt/yygh/ServiceCmnApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/target/classes/com/atzyt/yygh/ServiceCmnApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cmn/target/classes/com/atzyt/yygh/cmn/controller/DictController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/target/classes/com/atzyt/yygh/cmn/controller/DictController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cmn/target/classes/com/atzyt/yygh/cmn/service/DictService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/target/classes/com/atzyt/yygh/cmn/service/DictService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cmn/target/classes/com/atzyt/yygh/cmn/service/impl/DictServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/target/classes/com/atzyt/yygh/cmn/service/impl/DictServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-hosp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/atzyt/yygh/hosp/ServiceHospApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/atzyt/yygh/hosp/ServiceHospApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/atzyt/yygh/hosp/service/impl/HospitalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/atzyt/yygh/hosp/service/impl/HospitalServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-hosp/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/target/classes/com/atzyt/yygh/hosp/controller/api/ApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/atzyt/yygh/hosp/controller/api/ApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-hosp/target/classes/com/atzyt/yygh/hosp/ServiceHospApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/atzyt/yygh/hosp/ServiceHospApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-hosp/target/classes/com/atzyt/yygh/hosp/service/impl/HospitalServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/atzyt/yygh/hosp/service/impl/HospitalServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +70,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -109,24 +128,24 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service/service-hosp/src/main/java/com/atzyt/yygh/hosp/service/impl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service/service-hosp/src/main/java/com/atzyt/yygh/hosp/controller" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\mavenworkspace\yygh-parent\service\service-hosp\src\main\java\com\atzyt\yygh\hosp\service\impl" />
-      <recent name="D:\mavenworkspace\yygh-parent" />
-      <recent name="D:\mavenworkspace\yygh-parent\service\service-hosp\src\main\java\com\atzyt\yygh\hosp\controller\api" />
-      <recent name="D:\mavenworkspace\yygh-parent\service\service-hosp\src\main\java\com\atzyt\yygh\hosp\service" />
-      <recent name="D:\mavenworkspace\yygh-parent\service\service-hosp\src\main\java\com\atzyt\yygh\hosp\repository" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\mavenworkspace\yygh-parent\service\service-hosp\src\main\resources" />
       <recent name="D:\mavenworkspace\yygh-parent\service\service-cmn\src\main\java\yygh\cmn\mapper\xml\mapper\xml" />
       <recent name="D:\mavenworkspace\yygh-parent\service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mavenworkspace\yygh-parent\service\service-hosp\src\main\java\com\atzyt\yygh\hosp\controller" />
+      <recent name="D:\mavenworkspace\yygh-parent\service\service-hosp\src\main\java\com\atzyt\yygh\hosp\service\impl" />
+      <recent name="D:\mavenworkspace\yygh-parent" />
+      <recent name="D:\mavenworkspace\yygh-parent\service\service-hosp\src\main\java\com\atzyt\yygh\hosp\controller\api" />
+      <recent name="D:\mavenworkspace\yygh-parent\service\service-hosp\src\main\java\com\atzyt\yygh\hosp\service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -232,8 +251,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ServiceHospApplication" />
         <item itemvalue="Spring Boot.ServiceCmnApplication" />
+        <item itemvalue="Spring Boot.ServiceHospApplication" />
         <item itemvalue="JUnit.TestExcel.ReadExcel" />
         <item itemvalue="JUnit.TestExcel.simpleWrite" />
         <item itemvalue="JUnit.TestExcel.WriteExcel" />
@@ -250,11 +269,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -328,7 +342,8 @@
       <workItem from="1669001017991" duration="3830000" />
       <workItem from="1669113986160" duration="16864000" />
       <workItem from="1669184333238" duration="12772000" />
-      <workItem from="1669283127886" duration="10125000" />
+      <workItem from="1669283127886" duration="10830000" />
+      <workItem from="1669427243444" duration="6600000" />
     </task>
     <task id="LOCAL-00001" summary="v-0.0.1">
       <created>1657038572733</created>
@@ -379,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669189485058</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="v-0.0.3 医院信息，科室信息，排班信息-上传、分页查询、删除接口开发">
+      <created>1669391678720</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669391678720</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,17 +458,22 @@
     <MESSAGE value="v-0.0.1" />
     <MESSAGE value="v-0.0.2搭建环境和医院设置" />
     <MESSAGE value="v-0.0.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="v-0.0.3" />
+    <MESSAGE value="v-0.0.3 医院信息，科室信息，排班信息-上传、分页查询、删除接口开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="v-0.0.3 医院信息，科室信息，排班信息-上传、分页查询、删除接口开发" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1669470612264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1669470612264" />
     <state x="228" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1669372989543">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="228" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1669372989543" />
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1669391402764">
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1669471944391">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1669391402764" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1669471944391" />
     <state x="503" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1669123815147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -455,10 +482,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="580" y="328" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1669124171768" />
-    <state x="328" y="10" key="CommitChangelistDialog2" timestamp="1669189483838">
+    <state x="328" y="10" key="CommitChangelistDialog2" timestamp="1669391676871">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="328" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1669189483838" />
+    <state x="328" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1669391676871" />
     <state width="450" height="466" key="DebuggerActiveHint" timestamp="1669387329219">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -471,54 +498,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="311" width="373" height="202" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1669216621565" />
-    <state width="923" height="227" key="GridCell.Tab.0.bottom" timestamp="1669391432505">
+    <state width="923" height="254" key="GridCell.Tab.0.bottom" timestamp="1669479201092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="923" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1669391432505" />
-    <state width="923" height="227" key="GridCell.Tab.0.center" timestamp="1669391432505">
+    <state width="923" height="254" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1669479201092" />
+    <state width="923" height="254" key="GridCell.Tab.0.center" timestamp="1669479201092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="923" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1669391432505" />
-    <state width="923" height="227" key="GridCell.Tab.0.left" timestamp="1669391432504">
+    <state width="923" height="254" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1669479201092" />
+    <state width="923" height="254" key="GridCell.Tab.0.left" timestamp="1669479201092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="923" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1669391432504" />
-    <state width="923" height="227" key="GridCell.Tab.0.right" timestamp="1669391432505">
+    <state width="923" height="254" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1669479201092" />
+    <state width="923" height="254" key="GridCell.Tab.0.right" timestamp="1669479201092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="923" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1669391432505" />
-    <state width="923" height="227" key="GridCell.Tab.1.bottom" timestamp="1669391432505">
+    <state width="923" height="254" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1669479201092" />
+    <state width="923" height="254" key="GridCell.Tab.1.bottom" timestamp="1669479201092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="923" height="227" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1669391432505" />
-    <state width="923" height="227" key="GridCell.Tab.1.center" timestamp="1669391432505">
+    <state width="923" height="254" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1669479201092" />
+    <state width="923" height="254" key="GridCell.Tab.1.center" timestamp="1669479201092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="923" height="227" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1669391432505" />
-    <state width="923" height="227" key="GridCell.Tab.1.left" timestamp="1669391432505">
+    <state width="923" height="254" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1669479201092" />
+    <state width="923" height="254" key="GridCell.Tab.1.left" timestamp="1669479201092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="923" height="227" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1669391432505" />
-    <state width="923" height="227" key="GridCell.Tab.1.right" timestamp="1669391432505">
+    <state width="923" height="254" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1669479201092" />
+    <state width="923" height="254" key="GridCell.Tab.1.right" timestamp="1669479201092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="923" height="227" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1669391432505" />
-    <state width="923" height="227" key="GridCell.Tab.2.bottom" timestamp="1669391432506">
+    <state width="923" height="254" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1669479201092" />
+    <state width="923" height="254" key="GridCell.Tab.2.bottom" timestamp="1669479201093">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="923" height="227" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1669391432506" />
-    <state width="923" height="227" key="GridCell.Tab.2.center" timestamp="1669391432505">
+    <state width="923" height="254" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1669479201093" />
+    <state width="923" height="254" key="GridCell.Tab.2.center" timestamp="1669479201093">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="923" height="227" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1669391432505" />
-    <state width="923" height="227" key="GridCell.Tab.2.left" timestamp="1669391432505">
+    <state width="923" height="254" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1669479201093" />
+    <state width="923" height="254" key="GridCell.Tab.2.left" timestamp="1669479201092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="923" height="227" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1669391432505" />
-    <state width="923" height="227" key="GridCell.Tab.2.right" timestamp="1669391432506">
+    <state width="923" height="254" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1669479201092" />
+    <state width="923" height="254" key="GridCell.Tab.2.right" timestamp="1669479201093">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="923" height="227" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1669391432506" />
+    <state width="923" height="254" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1669479201093" />
     <state x="299" y="71" key="Maven.ArtifactSearchDialog" timestamp="1662262423559">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -527,10 +554,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1669189715530" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1669189768160">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1669479215458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1669189768160" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1669479215458" />
     <state x="564" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1669375283545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -543,10 +570,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="390" y="1" width="977" height="822" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1669377314477" />
-    <state x="178" y="117" key="new project wizard" timestamp="1669118027397">
+    <state x="178" y="117" key="new project wizard" timestamp="1669474088794">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="117" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1669118027397" />
+    <state x="178" y="117" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1669474088794" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

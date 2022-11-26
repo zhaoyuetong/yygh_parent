@@ -13,6 +13,8 @@
         <module>service</module>
         <module>service/service-hosp</module>
         <module>service/service-cmn</module>
+        <module>service-client</module>
+        <module>service-cmn-client</module>
     </modules>
 
     <parent>

@@ -13,6 +13,7 @@
         <module name="service-cmn" />
         <module name="hospital-manage" />
         <module name="service-util" />
+        <module name="service-cmn-client" />
       </profile>
     </annotationProcessing>
   </component>
@@ -23,7 +24,9 @@
       <module name="hospital-manage" options="-parameters" />
       <module name="model" options="-parameters" />
       <module name="service" options="-parameters" />
+      <module name="service-client" options="-parameters" />
       <module name="service-cmn" options="-parameters" />
+      <module name="service-cmn-client" options="-parameters" />
       <module name="service-hosp" options="-parameters" />
       <module name="service-util" options="-parameters" />
     </option>

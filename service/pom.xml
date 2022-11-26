@@ -48,11 +48,12 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
-<!--        &lt;!&ndash; 服务调用feign &ndash;&gt;
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
+<!--        &lt;!&ndash; 服务调用feign &ndash;&gt;
+
         &lt;!&ndash; 服务注册 &ndash;&gt;
 
         &lt;!&ndash; 流量控制 &ndash;&gt;
