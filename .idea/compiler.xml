@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common-util" />
         <module name="service-hosp" />
+        <module name="server-gateway" />
         <module name="model" />
         <module name="service-cmn" />
         <module name="hospital-manage" />
@@ -23,6 +24,7 @@
       <module name="common-util" options="-parameters" />
       <module name="hospital-manage" options="-parameters" />
       <module name="model" options="-parameters" />
+      <module name="server-gateway" options="-parameters" />
       <module name="service" options="-parameters" />
       <module name="service-client" options="-parameters" />
       <module name="service-cmn" options="-parameters" />
