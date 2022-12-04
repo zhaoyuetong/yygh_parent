@@ -39,7 +39,17 @@ public class HospApiController {
 
     @Autowired
     private HospitalSetService hospitalSetService;
-
+    @ApiOperation(value = "获取分页列表")
+    @GetMapping("getByPage/{page}/{limit}")
+    public Result index(
+            @PathVariable Integer page,
+            @PathVariable Integer limit,
+            HospitalQueryVo hospitalQueryVo) {
+        //显示上线的医院
+        //hospitalQueryVo.setStatus(1);
+        Page<Hospital> pageModel = hospitalService.selectHospPage(page, limit, hospitalQueryVo);
+        return Result.ok(pageModel);
+    }
     @ApiOperation(value = "查询医院列表")
     @GetMapping("findHospList/{page}/{limit}")
     public Result findHospList(@PathVariable Integer page,
