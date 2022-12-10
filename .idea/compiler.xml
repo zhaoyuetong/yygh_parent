@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common-util" />
         <module name="service-hosp" />
+        <module name="service-msm" />
         <module name="server-gateway" />
         <module name="model" />
         <module name="service-cmn" />
         <module name="hospital-manage" />
         <module name="service-util" />
+        <module name="service-user" />
         <module name="service-cmn-client" />
       </profile>
     </annotationProcessing>
@@ -30,6 +32,8 @@
       <module name="service-cmn" options="-parameters" />
       <module name="service-cmn-client" options="-parameters" />
       <module name="service-hosp" options="-parameters" />
+      <module name="service-msm" options="-parameters" />
+      <module name="service-user" options="-parameters" />
       <module name="service-util" options="-parameters" />
     </option>
   </component>

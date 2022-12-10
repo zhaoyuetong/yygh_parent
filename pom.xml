@@ -14,8 +14,9 @@
         <module>service/service-hosp</module>
         <module>service/service-cmn</module>
         <module>service-client</module>
-        <module>service-cmn-client</module>
         <module>server-gateway</module>
+        <module>service/service-user</module>
+        <module>service/service-msm</module>
     </modules>
 
     <parent>
