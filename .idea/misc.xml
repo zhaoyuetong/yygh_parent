@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/service/service-cmn/pom.xml" />
         <option value="$PROJECT_DIR$/service/pom.xml" />
         <option value="$PROJECT_DIR$/hospital-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/service-client/service-order-client/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -51,6 +51,7 @@ var opt = {
 	        content: url
 	    });
 	},
+
 	openWindow:function(url,title,width,heigth,call){
 		var title = title ?title:false;
 		layer.open({

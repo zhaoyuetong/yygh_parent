@@ -11,6 +11,7 @@ import com.aliyuncs.http.MethodType;
 import com.aliyuncs.profile.DefaultProfile;
 import com.atzyt.yygh.msm.service.MsmService;
 import com.atzyt.yygh.msm.utils.ConstantPropertiesUtils;
+import com.atzyt.yygh.vo.msm.MsmVo;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
@@ -64,14 +65,14 @@ public class MsmServiceImpl implements MsmService {
     }
 
     //mq发送短信封装
-//    @Override
-//    public boolean send(MsmVo msmVo) {
-//        if(!StringUtils.isEmpty(msmVo.getPhone())) {
-//            boolean isSend = this.send(msmVo.getPhone(), msmVo.getParam());
-//            return isSend;
-//        }
-//        return false;
-//    }
+    @Override
+    public boolean send(MsmVo msmVo) {
+        if(!StringUtils.isEmpty(msmVo.getPhone())) {
+            boolean isSend = this.send(msmVo.getPhone(), msmVo.getParam());
+            return isSend;
+        }
+        return false;
+    }
 
     private boolean send(String phone, Map<String,Object> param) {
         //判断手机号是否为空
@@ -89,7 +90,7 @@ public class MsmServiceImpl implements MsmService {
         //request.setProtocol(ProtocolType.HTTPS);
         request.setMethod(MethodType.POST);
         request.setDomain("dysmsapi.aliyuncs.com");
-        request.setVersion("2022-12-05");
+        request.setVersion("2017-05-25");
         request.setAction("SendSms");
 
         //手机号

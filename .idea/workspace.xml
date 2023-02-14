@@ -2,8 +2,111 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24643970-48d3-456c-9ffd-68140e93fe44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common/rabbit-util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/rabbit-util/rabbit-util.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/rabbit-util/src/main/java/com/atzyt/common/rabbit/config/MQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/rabbit-util/src/main/java/com/atzyt/common/rabbit/constant/MqConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/rabbit-util/src/main/java/com/atzyt/common/rabbit/service/RabbitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client/service-hosp-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client/service-hosp-client/src/main/java/com/atzyt/yygh/hosp/client/HospitalFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client/service-order-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client/service-order-client/src/main/java/com/atzyt/yygh/order/client/OrderFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client/service-user-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client/service-user-client/src/main/java/com/atzyt/yygh/user/client/PatientFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/test/java/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/atzyt/yygh/hosp/config/RedisHealthIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/atzyt/yygh/hosp/receiver/HospitalReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/ServiceOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/api/OrderApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/api/WeixinController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/config/OrderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/mapper/PaymentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/mapper/RefundInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/mapper/xml/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/receiver/OrderReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/service/RefundInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/service/WeixinService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/service/impl/RefundInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/service/impl/WeixinServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/utils/ConstantPropertiesUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atzyt/yygh/order/utils/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/resources/cert/apiclient_cert.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/src/main/java/com/atzyt/yygh/oss/ServiceOssApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/src/main/java/com/atzyt/yygh/oss/controller/FileApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/src/main/java/com/atzyt/yygh/oss/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/src/main/java/com/atzyt/yygh/oss/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/src/main/java/com/atzyt/yygh/oss/utils/ConstantOssPropertiesUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-statistics/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-statistics/src/main/java/com/atzyt/yygh/sta/ServiceStatisticsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-statistics/src/main/java/com/atzyt/yygh/sta/controller/StatisticsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-statistics/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-task/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-task/service-task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-task/src/main/java/com/atzyt/yygh/task/ServiceTaskApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-task/src/main/java/com/atzyt/yygh/task/scheduled/ScheduledTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-task/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/java/com/atzyt/yygh/user/api/PatientApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/java/com/atzyt/yygh/user/api/UserInfoApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/java/com/atzyt/yygh/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/java/com/atzyt/yygh/user/mapper/PatientMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/java/com/atzyt/yygh/user/mapper/xml/PatientMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/java/com/atzyt/yygh/user/service/PatientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-user/src/main/java/com/atzyt/yygh/user/service/impl/PatientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital-manage/src/main/java/com/atguigu/hospital/controller/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/atguigu/hospital/controller/ApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/common/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/common/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/department/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/department/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/hospital/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/hospital/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/hospital/index_重命名_2022-7-4-0-41-25.html" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/hospital/index_重命名_2022-7-4-0-41-25.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital-manage/target/classes/com/atguigu/hospital/controller/ApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-manage/target/classes/com/atguigu/hospital/controller/ApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital-manage/target/classes/static/js/common/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-manage/target/classes/static/js/common/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital-manage/target/classes/templates/department/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-manage/target/classes/templates/department/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital-manage/target/classes/templates/hospital/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-manage/target/classes/templates/hospital/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server-gateway/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cmn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cmn/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cmn/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-hosp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-hosp/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-msm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-msm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-msm/src/main/java/com/atzyt/yygh/msm/receiver/MsmReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-msm/src/main/java/com/atzyt/yygh/msm/receiver/MsmReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-msm/src/main/java/com/atzyt/yygh/msm/service/MsmService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-msm/src/main/java/com/atzyt/yygh/msm/service/MsmService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-msm/src/main/java/com/atzyt/yygh/msm/service/impl/MsmServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-msm/src/main/java/com/atzyt/yygh/msm/service/impl/MsmServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-msm/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-msm/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-msm/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-msm/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-msm/target/classes/com/atzyt/yygh/msm/receiver/MsmReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-msm/target/classes/com/atzyt/yygh/msm/receiver/MsmReceiver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-msm/target/classes/com/atzyt/yygh/msm/service/MsmService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-msm/target/classes/com/atzyt/yygh/msm/service/MsmService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-msm/target/classes/com/atzyt/yygh/msm/service/impl/MsmServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-msm/target/classes/com/atzyt/yygh/msm/service/impl/MsmServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-user/src/main/java/com/atzyt/yygh/user/api/WeixinApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-user/src/main/java/com/atzyt/yygh/user/api/WeixinApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-user/src/main/java/com/atzyt/yygh/user/controller/UserInfoApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-user/src/main/java/com/atzyt/yygh/user/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-user/src/main/java/com/atzyt/yygh/user/service/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-user/src/main/java/com/atzyt/yygh/user/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-user/src/main/java/com/atzyt/yygh/user/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-user/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-user/target/classes/com/atzyt/yygh/user/api/WeixinApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-user/target/classes/com/atzyt/yygh/user/api/WeixinApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-user/target/classes/com/atzyt/yygh/user/controller/UserInfoApiController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-user/target/classes/com/atzyt/yygh/user/service/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-user/target/classes/com/atzyt/yygh/user/service/UserInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-user/target/classes/com/atzyt/yygh/user/service/impl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-user/target/classes/com/atzyt/yygh/user/service/impl/UserInfoServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +115,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/hospital-manage">
@@ -46,12 +152,13 @@
       <list>
         <option value="Kotlin File" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PATH_TO_GIT" value="D:\Program Files\Git\bin\git.exe" />
+    <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="dev" />
@@ -92,6 +199,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -103,11 +211,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server-gateway/src/main/java/com/atzyt/yygh/gateway" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service/service-statistics/src/main/java/com/atzyt/yygh/sta" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -117,12 +225,16 @@
       <recent name="D:\mavenworkspace\yygh-parent\service\service-hosp\src\main\resources" />
       <recent name="D:\mavenworkspace\yygh-parent\service\service-cmn\src\main\java\yygh\cmn\mapper\xml\mapper\xml" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="client" />
+      <recent name="com.atzyt.yygh.oss" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\mavenworkspace\yygh-parent\server-gateway\src\main\java\com\atzyt\yygh\gateway" />
-      <recent name="D:\mavenworkspace\yygh-parent\service\service-msm\src\main\resources" />
-      <recent name="D:\mavenworkspace\yygh-parent\service\service-msm\src\main\java" />
-      <recent name="D:\mavenworkspace\yygh-parent\service\service-user\src\main\java\com\atzyt\yygh\user\utils" />
-      <recent name="D:\mavenworkspace\yygh-parent\service\service-user\src\main\java\com\atzyt\yygh\user\config" />
+      <recent name="D:\mavenworkspace\yygh-parent\service\service-statistics\src\main\java\com\atzyt\yygh\sta" />
+      <recent name="D:\mavenworkspace\yygh-parent\service\service-statistics\src\main\resources" />
+      <recent name="D:\mavenworkspace\yygh-parent\service\service-task\src\main\resources" />
+      <recent name="D:\mavenworkspace\yygh-parent\service\service-task\src\main\java\com\atzyt\yygh\task" />
+      <recent name="D:\mavenworkspace\yygh-parent\service\service-order\src\main\resources\cert" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -132,36 +244,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServerGatewayApplication">
-    <configuration name="JwtHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atzyt.yygh.common.helper.JwtHelper" />
-      <module name="common-util" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atzyt.yygh.common.helper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestExcel.ReadExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-util" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atzyt.UserData.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atzyt.UserData" />
-      <option name="MAIN_CLASS_NAME" value="com.atzyt.UserData.TestExcel" />
-      <option name="METHOD_NAME" value="ReadExcel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ServiceUserApplication">
     <configuration name="ManageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hospital-manage" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.hospital.ManageApplication" />
@@ -219,6 +302,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atzyt.yygh.order.ServiceOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-oss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atzyt.yygh.oss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atzyt.yygh.oss.ServiceOssApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceStatisticsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-statistics" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atzyt.yygh.sta.ServiceStatisticsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atzyt.yygh.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atzyt.yygh.task.ServiceTaskApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-user" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atzyt.yygh.user.ServiceUserApplication" />
@@ -227,22 +350,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JwtHelper" />
-      <item itemvalue="JUnit.TestExcel.ReadExcel" />
       <item itemvalue="Spring Boot.ManageApplication" />
       <item itemvalue="Spring Boot.ServiceUserApplication" />
       <item itemvalue="Spring Boot.ServiceMsmApplication" />
+      <item itemvalue="Spring Boot.ServiceOrderApplication" />
+      <item itemvalue="Spring Boot.ServiceOssApplication" />
       <item itemvalue="Spring Boot.ServiceHospApplication" />
       <item itemvalue="Spring Boot.ServiceCmnApplication" />
       <item itemvalue="Spring Boot.ServerGatewayApplication" />
+      <item itemvalue="Spring Boot.ServiceTaskApplication" />
+      <item itemvalue="Spring Boot.ServiceStatisticsApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ServerGatewayApplication" />
-        <item itemvalue="Spring Boot.ServiceCmnApplication" />
         <item itemvalue="Spring Boot.ServiceHospApplication" />
-        <item itemvalue="Application.JwtHelper" />
-        <item itemvalue="JUnit.TestExcel.ReadExcel" />
+        <item itemvalue="Spring Boot.ServiceCmnApplication" />
+        <item itemvalue="Spring Boot.ServiceTaskApplication" />
+        <item itemvalue="Spring Boot.ServiceOssApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +375,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.28142077" />
+          <option name="contentProportion" value="0.43453357" />
           <treeState>
             <expand>
               <path>
@@ -342,7 +467,39 @@
       <workItem from="1670251541238" duration="2296000" />
       <workItem from="1670329952984" duration="8439000" />
       <workItem from="1670504963867" duration="3593000" />
-      <workItem from="1670647989939" duration="6422000" />
+      <workItem from="1670647989939" duration="7183000" />
+      <workItem from="1670746570059" duration="1767000" />
+      <workItem from="1670926259131" duration="1701000" />
+      <workItem from="1670939343850" duration="618000" />
+      <workItem from="1671108814237" duration="2122000" />
+      <workItem from="1671156683268" duration="595000" />
+      <workItem from="1671238714018" duration="624000" />
+      <workItem from="1671277943484" duration="5472000" />
+      <workItem from="1671370205969" duration="4194000" />
+      <workItem from="1671414468622" duration="1259000" />
+      <workItem from="1671968171195" duration="4739000" />
+      <workItem from="1672015112010" duration="4522000" />
+      <workItem from="1672231292214" duration="10000" />
+      <workItem from="1672383197802" duration="64000" />
+      <workItem from="1672905208710" duration="1197000" />
+      <workItem from="1672926474298" duration="2227000" />
+      <workItem from="1672931800917" duration="606000" />
+      <workItem from="1673162065100" duration="3187000" />
+      <workItem from="1673484472731" duration="4000" />
+      <workItem from="1673484604670" duration="55000" />
+      <workItem from="1674804031062" duration="6351000" />
+      <workItem from="1674894428470" duration="610000" />
+      <workItem from="1675560486404" duration="2912000" />
+      <workItem from="1675673085383" duration="179000" />
+      <workItem from="1675756718494" duration="14000" />
+      <workItem from="1675757897277" duration="273000" />
+      <workItem from="1675758333355" duration="623000" />
+      <workItem from="1675790243317" duration="158000" />
+      <workItem from="1675923396606" duration="9000" />
+      <workItem from="1676011118610" duration="42000" />
+      <workItem from="1676125246477" duration="20427000" />
+      <workItem from="1676251026897" duration="250000" />
+      <workItem from="1676276782161" duration="18698000" />
     </task>
     <task id="LOCAL-00001" summary="v-0.0.1">
       <created>1657038572733</created>
@@ -449,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670663746190</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="v-0.0.3 手机+微信登录">
+      <created>1670664427315</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670664427315</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,18 +685,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="74" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1670648014893" />
-    <state x="361" y="74" key="#Project_Structure" timestamp="1670246563468">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1676336953899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1670246563468" />
-    <state x="228" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1670332729738">
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1676336953899" />
+    <state x="228" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1671282246683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="228" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1670332729738" />
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1670661487069">
+    <state x="228" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1671282246683" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1676341542802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1670661487069" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1676341542802" />
     <state x="503" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1669123815147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -541,106 +705,118 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="580" y="328" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1669124171768" />
+    <state x="348" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1671278665604">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="348" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1671278665604" />
+    <state x="502" y="301" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1671278668025">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="502" y="301" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1671278668025" />
     <state x="524" y="121" key="#xdebugger.evaluate" timestamp="1669987560079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="121" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1669987560079" />
-    <state x="328" y="10" key="CommitChangelistDialog2" timestamp="1670663744667">
+    <state x="328" y="10" key="CommitChangelistDialog2" timestamp="1670664425939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="328" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1670663744667" />
-    <state width="450" height="466" key="DebuggerActiveHint" timestamp="1669988342192">
+    <state x="328" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1670664425939" />
+    <state width="526" height="438" key="DebuggerActiveHint" timestamp="1676353764293">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="450" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1669988342192" />
-    <state x="354" y="138" key="FileChooserDialogImpl" timestamp="1669189755208">
+    <state width="526" height="438" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1676353764293" />
+    <state x="354" y="138" key="FileChooserDialogImpl" timestamp="1676125271742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="354" y="138" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1669189755208" />
+    <state x="354" y="138" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1676125271742" />
     <state x="593" y="311" width="373" height="202" key="Github.CreateGistDialog" timestamp="1669216621565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="311" width="373" height="202" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1669216621565" />
-    <state width="1051" height="486" key="GridCell.Tab.0.bottom" timestamp="1670663052730">
+    <state width="690" height="231" key="GridCell.Tab.0.bottom" timestamp="1676372842851">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1051" height="486" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1670663052730" />
-    <state width="1051" height="486" key="GridCell.Tab.0.center" timestamp="1670663052729">
+    <state width="690" height="231" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1676372842851" />
+    <state width="690" height="231" key="GridCell.Tab.0.center" timestamp="1676372842851">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1051" height="486" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1670663052729" />
-    <state width="1051" height="486" key="GridCell.Tab.0.left" timestamp="1670663052729">
+    <state width="690" height="231" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1676372842851" />
+    <state width="690" height="231" key="GridCell.Tab.0.left" timestamp="1676372842851">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1051" height="486" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1670663052729" />
-    <state width="1051" height="486" key="GridCell.Tab.0.right" timestamp="1670663052730">
+    <state width="690" height="231" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1676372842851" />
+    <state width="690" height="231" key="GridCell.Tab.0.right" timestamp="1676372842851">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1051" height="486" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1670663052730" />
-    <state width="1051" height="486" key="GridCell.Tab.1.bottom" timestamp="1670663051556">
+    <state width="690" height="231" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1676372842851" />
+    <state width="690" height="231" key="GridCell.Tab.1.bottom" timestamp="1676372842697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1051" height="486" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1670663051556" />
-    <state width="1051" height="486" key="GridCell.Tab.1.center" timestamp="1670663051556">
+    <state width="690" height="231" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1676372842697" />
+    <state width="690" height="231" key="GridCell.Tab.1.center" timestamp="1676372842697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1051" height="486" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1670663051556" />
-    <state width="1051" height="486" key="GridCell.Tab.1.left" timestamp="1670663051556">
+    <state width="690" height="231" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1676372842697" />
+    <state width="690" height="231" key="GridCell.Tab.1.left" timestamp="1676372842697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1051" height="486" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1670663051556" />
-    <state width="1051" height="486" key="GridCell.Tab.1.right" timestamp="1670663051556">
+    <state width="690" height="231" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1676372842697" />
+    <state width="690" height="231" key="GridCell.Tab.1.right" timestamp="1676372842697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1051" height="486" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1670663051556" />
-    <state width="1051" height="486" key="GridCell.Tab.2.bottom" timestamp="1670663051557">
+    <state width="690" height="231" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1676372842697" />
+    <state width="690" height="231" key="GridCell.Tab.2.bottom" timestamp="1676372842698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1051" height="486" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1670663051557" />
-    <state width="1051" height="486" key="GridCell.Tab.2.center" timestamp="1670663051556">
+    <state width="690" height="231" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1676372842698" />
+    <state width="690" height="231" key="GridCell.Tab.2.center" timestamp="1676372842697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1051" height="486" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1670663051556" />
-    <state width="1051" height="486" key="GridCell.Tab.2.left" timestamp="1670663051556">
+    <state width="690" height="231" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1676372842697" />
+    <state width="690" height="231" key="GridCell.Tab.2.left" timestamp="1676372842697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1051" height="486" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1670663051556" />
-    <state width="1051" height="486" key="GridCell.Tab.2.right" timestamp="1670663051557">
+    <state width="690" height="231" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1676372842697" />
+    <state width="690" height="231" key="GridCell.Tab.2.right" timestamp="1676372842698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1051" height="486" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1670663051557" />
-    <state x="299" y="71" key="Maven.ArtifactSearchDialog" timestamp="1670245367933">
+    <state width="690" height="231" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1676372842698" />
+    <state x="299" y="71" key="Maven.ArtifactSearchDialog" timestamp="1674807599318">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="299" y="71" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1670245367933" />
-    <state x="272" y="0" key="SettingsEditor" timestamp="1669189715530">
+    <state x="299" y="71" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1674807599318" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1676337881502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1669189715530" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1670664411117">
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1676337881502" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1670664447796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1670664411117" />
-    <state x="564" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1669945902042">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1670664447796" />
+    <state x="564" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1671375017033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="564" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1669945902042" />
+    <state x="564" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1671375017033" />
     <state x="436" y="205" key="extract.method.dialog" timestamp="1669376356074">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="436" y="205" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1669376356074" />
-    <state x="390" y="1" width="977" height="822" key="find.popup" timestamp="1670660618607">
+    <state x="415" y="121" width="769" height="692" key="find.popup" timestamp="1676345244757">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="390" y="1" width="977" height="822" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1670660618607" />
+    <state x="415" y="121" width="769" height="692" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1676345244757" />
     <state x="459" y="215" key="git4idea.merge.GitPullDialog" timestamp="1669649284935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="459" y="215" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1669649284935" />
-    <state x="178" y="117" key="new project wizard" timestamp="1670252831723">
+    <state x="178" y="58" key="new project wizard" timestamp="1676337914261">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="117" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1670252831723" />
+    <state x="178" y="58" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1676337914261" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1676207317528">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1676207317528" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -654,6 +830,16 @@
           <url>file://$PROJECT_DIR$/service/service-hosp/src/main/java/com/atzyt/yygh/hosp/controller/HospitalSetController.java</url>
           <line>96</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/service-user/src/main/java/com/atzyt/yygh/user/service/impl/UserInfoServiceImpl.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/service-user/src/main/java/com/atzyt/yygh/user/api/UserInfoApiController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
